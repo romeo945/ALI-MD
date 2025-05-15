@@ -17,9 +17,9 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ALI-MD",
+BOT_NAME: process.env.BOT_NAME || "S☋ɱ☯n",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",
+STICKER_NAME: process.env.STICKER_NAME || "S☋ɱ☯n... STICKER",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -29,7 +29,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "919088873712",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI",
+OWNER_NAME: process.env.OWNER_NAME || "S☋ɱ☯n",
 // add bot owner name 
 WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
@@ -39,7 +39,7 @@ ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-MENTION_REPLY: process.env.MENTION_REPLY || "false",
+MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // maks true for always online 
 //ANTI_CALL: process.env.ANTI_CALL || "true",
 //maks anticall true, false for calls
@@ -55,7 +55,7 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
-ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "true",
+ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -77,9 +77,9 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923003588997",
+DEV: process.env.DEV || "919088873712",
 //replace with your whatsapp number        
-ANTI_VV: process.env.ANTI_VV || "true",
+ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view 
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log", 
 // change it to 'same' if you want to resend deleted message in same chat 
