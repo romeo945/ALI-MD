@@ -19,7 +19,7 @@ PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "S☋ɱ☯n",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "S☋ɱ☯n... STICKER",
+STICKER_NAME: process.env.STICKER_NAME || "sticker!!maker_BY ~♥~٩𝑺ᶶ𝖒𝗼ꫛ۶~♥~__😂_🫵|🖕",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
