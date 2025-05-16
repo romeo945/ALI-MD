@@ -47,7 +47,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // add anticall message 
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву αℓι ⎯꯭̽💀*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/vccmu9.mp4",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtNFGmwVwGtghBluMadN7zh6cAqBzmjOSqsyylnc34L5CsZf50yPsYrS8&s=10",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
