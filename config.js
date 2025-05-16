@@ -29,7 +29,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "919088873712",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "S☋ɱ☯n",
+OWNER_NAME: process.env.OWNER_NAME || "ᵴ𝑢𝓂ѻŊฅ^•ﻌ•^ฅ",
 // add bot owner name 
 WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
