@@ -7,13 +7,13 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "STARK-ALI~bAB3jLrS#ailPR7z3VBx93ELWjPcLFOY39dNLR7Ix1BLj785fQ8Q",
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+//AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+//AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+//AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ♥~٩𝑺ᶶ𝖒𝗼ꫛ۶~♥ 👻*",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -31,9 +31,9 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "919088873712",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ᵴ𝑢𝓂ѻŊฅ^•ﻌ•^ฅ",
 // add bot owner name 
-WELCOME: process.env.WELCOME || "false",
+//WELCOME: process.env.WELCOME || "false",
 // true if want welcome msg in groups
-GOODBYE: process.env.GOODBYE || "false",
+//GOODBYE: process.env.GOODBYE || "false",
 // true if want goodbye msg in groups
 ADMIN_STATUS: process.env.ADMIN_STATUS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -45,7 +45,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "true",
 //maks anticall true, false for calls
 //REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*", 
 // add anticall message 
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву αℓι ⎯꯭̽💀*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву ᵴ𝑢𝓂ѻŊฅ^•ﻌ•^ฅ⎯꯭̽💀*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtNFGmwVwGtghBluMadN7zh6cAqBzmjOSqsyylnc34L5CsZf50yPsYrS8&s=10",
 // add img for alive msg
