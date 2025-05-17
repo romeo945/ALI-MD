@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "STARK-ALI~HBhijKgD#JouStCRubMjGjeCdUPI56OBmhFjKVSkPABubGwKJL64",
+SESSION_ID: process.env.SESSION_ID || "STARK-ALI~bAB3jLrS#ailPR7z3VBx93ELWjPcLFOY39dNLR7Ix1BLj785fQ8Q",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -41,7 +41,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // maks true for always online 
-//ANTI_CALL: process.env.ANTI_CALL || "true",
+//ANTI_CALL: process.env.ANTI_CALL || "",
 //maks anticall true, false for calls
 //REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*", 
 // add anticall message 
@@ -53,7 +53,7 @@ LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "true",
+AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words  
