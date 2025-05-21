@@ -29,7 +29,7 @@ reply(`❌ *Error Accurated !!*\n\n${e}`)
 
 cmd({
     pattern: "tagadmins",
-    react: "👑",
+    react: "🤭",
     alias: ["admin" ,"admin","tagadmin"],
     desc: "To Tag all Admins of the Group",
     category: "group",
