@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send the ping result
         await conn.sendMessage(from, { 
-            text: `*📍 𝐏๏፝֟ƞ̽g👙 : ${ping} 𝐌ʂ*`, 
+            text: `*📍 𝐏๏፝֟ƞ̽g🎀 : ${ping} 𝐌ʂ*`, 
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
