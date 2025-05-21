@@ -22,7 +22,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send the ping result
         await conn.sendMessage(from, { 
-            text: `*📍 𝐏๏፝֟ƞ̽g : ${ping} 𝐌ʂ*`, 
+            text: `*📍 𝐏๏፝֟ƞ̽g👙 : ${ping} 𝐌ʂ*`, 
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
@@ -77,8 +77,8 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
     try {
         const start = new Date().getTime();
 
-        const reactionEmojis = ['🔥', '🔮', '🌩️', '👻', '🍁', '🐍', '🎋', '🎐', '🪸', '📍', '👑', '🌀', '🪄'];
-        const textEmojis = ['🪀', '🪂', '⚡️', '🚀', '🏎️', '🚁', '🌀', '📟', '🎲', '✨'];
+        const reactionEmojis = ['🍉', '🔮', '🌩️', '🎀', '👻', '🎋', '🎐', '🦋', '🪸', '💝', '🫧', '📍', '🌀', '🪄'];
+        const textEmojis = ['🍉', '🎀', '⚡️', '🌀', '👻', '🥵', '💦', '✨'];
 
         const reactionEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
         let textEmoji = textEmojis[Math.floor(Math.random() * textEmojis.length)];
