@@ -1,3 +1,6 @@
+const http = require('http');
+const server = http.createServer((req,
+res) => }				  
 const {
   default: makeWASocket,
     useMultiFileAuthState,
@@ -881,4 +884,3 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   setTimeout(() => {
   connectToWA()
   }, 4000);
-module.exports = app;
