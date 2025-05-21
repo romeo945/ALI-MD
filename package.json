@@ -4,10 +4,13 @@
   "description": "A WhatsApp Bot Created By ALI",
   "main": "index.js",
   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pm2 start index.js --deep-monitoring --attach --name ALI-MD",
     "stop": "pm2 stop ALI-MD",
     "restart": "pm2 restart ALI-MD"
   },
+  "author": "Arpan Neupane",
+  "license": "ISC",
   "dependencies": {
     "@bochilteam/scraper": "3.0.0",
     "@neeraj-x0/textpro": "^1.0.3",
